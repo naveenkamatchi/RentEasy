@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: rgba(0, 0, 0, 0.884);
+    height: 100px;
+    padding: 0 40px;     
+    color: white;
+    overflow: hidden;    
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+#logo img {
+    height: 140px;  
+    width: auto;   
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    list-style: none;
+    display: flex; 
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 0 20px;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    
+}
+.menu li a:hover
+{
+    color: orangered;
+
+}  
+
+span{
+    color: orangered;
+}
+
+.about-img{
+    float:left;
+    margin-right:40px;
+    border-radius: 10px;
+}
+
+h1{
+    font-size:55px;
+    font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto;
+}
+
+h3,h2{
+    font-size:22px;
+    color:rgb(34,30,30);
+    text-align:justify;
+}
+
+.box{
+    padding:40px;
+    border-radius:30px;
+}
+
+.container2{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    gap:40px;
+    width:1200px;
+    margin:auto;
+}
+
+.box img{
+    display: block;
+    margin:auto;
+    border-radius: 30px;
+}
+.container3,h3
+{
+    text-align: center;
+}
+.b
+{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 30px;
+    position: relative;
+    background-color: rgb(247, 245, 242);
+
+    
+}
+.container4
+{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.b h2
+{
+    font-size: 38px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 20px;
+}
+.b h3
+{
+    position: absolute;
+  bottom: 20px;
+  text-align: center;
+}
+
+
+.footer {
+    background-color: #111; /* Dark background */
+    color: #fff;
+    padding: 60px 0 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 200px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    flex-wrap: wrap; /* Allows stacking on small screens */
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 30px;
+    padding: 0 15px;
+}
+
+
+
+.footer-col h3 {
+    
+    font-size: 1.2rem;
+   margin-top: 5px;
+    font-weight: bold;
+    margin-right: 245px;
+}
+
+.footer-col p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.footer-col ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: orangered;
+}
+
+/* Social Icons Styling */
+.social-links a {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255,255,255,0.1);
+    margin-right: 10px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    background-color: orangered;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-bottom hr {
+    border: 0;
+    border-top: 1px solid #333;
+    margin-bottom: 20px;
+}
+
+.footer-bottom p {
+    font-size: 0.8rem;
+    color: #888;
+}
+</style>
+</head>
+
+<body>
+       <header>
+       <a href="index.html" id="logo"><img src="Images/Logo/Gemini_Generated_Image_kxyoq1kxyoq1kxyo-removebg-preview (1).png" alt="logo"></a>
+        <nav>
+            <ul class="menu">
+            <li><a href="index.html" alt="">Home</a></li>
+            <li><a href="about.html" alt=""><font color="orangered">About Us</font> </a></li>
+            <li><a href="Bike.html" alt="">Bike services</a></li>
+            <li><a href="Cars.html" alt="">Car services</font></a></li>
+            <li><a href="contact.html" alt="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>   
+<div class="container1">
+<img class="about-img" src="Images/About us/about us.jpeg" height="450" width="600">
+
+<h1>We Provide High<br> 
+<span>Quality Bike & Car Rental</span><br> Services</h1>
+
+<h3>
+Bike and Car For Rent Madurai offers a diverse fleet of well-maintained two-wheelers,
+including gearless scooters, sport bikes, and cruisers, catering to various travel needs.
+With flexible rental plans from daily to monthly durations, customers can choose
+options that suit their itinerary. The service is perfect for tourists and locals
+who want an affordable and convenient way to explore Madurai.
+</h3>
+</div>
+
+
+<div class="container2">
+
+<div class="box">
+<h1><span>Our</span> Mission</h1>
+
+<h3>
+Our mission is to provide reliable, affordable, and high-quality bike and car rentals
+that ensure customer satisfaction with every ride. We offer well-maintained vehicles
+and a smooth booking process, prioritizing safety, comfort, and convenience.
+</h3>
+</div>
+
+<div class="box">
+<img src="Images/About us/About car.png" height="300" width="400">
+</div>
+
+<div class="box">
+<img src="Images/About us/About us bike.png" height="300" width="400">
+</div>
+
+<div class="box">
+<h1>Our <span>Vision</span></h1>
+
+<h3>
+Our vision is to become Madurai’s leading bike and car rental service known for
+excellent customer care and a diverse fleet. We aim to expand our offerings
+while delivering hassle-free experiences for both locals and visitors.
+</h3>
+
+</div>
+
+</div>
+<div class="container3">
+<h1>What <span>We Offer</span></h1>
+<h3>we provide rigorously inspected premium bikes and cars,<br> a hassle-free money-back guarantee,
+ secure payments, and the<br> best rental prices ride smart and confident with us.</h3>
+</div>
+
+<div class="container4">
+    <div class="b">
+        <h2><span>Premium <br>Bikes</span></h2>
+        <h3>Every bike and car is thoroughly inspected to ensure the highest standards of quality and performance.</h3>
+    </div>
+    <div class="b">
+        <h2><span>Money Assurance</span></h2>
+        <h3>If anything goes wrong, rest assured you’ll receive a full refund, no questions asked, guaranteed every time.</h3>
+    </div> 
+    <div class="b">
+        <h2><span>Secure Transactions</span></h2>
+        <h3>Our trusted payment gateway guarantees 100% safe and seamless transactions on our platform. </h3>
+    </div>
+    <div class="b">
+          <h2><span>Best Price<br>Promise</span></h2>
+        <h3>Enjoy unbeatable rental rates get your favorite bikes and cars at the most competitive prices in the market. </h3>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-col">
+         
+            <p>RentEasy, the premier bike rental agency in Aruppukottai, invites you to experience the thrill of the road on our fleet of well-maintained bikes.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-reddit"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h3><font color="orangered">Our Locations</font></h3>
+            <p>No.11 Kamatchipuram Street Maninagaram Aruppukottai-626101</p>
+            <p>+91 6374340790</p>
+            <p>info@renteasy.com</p>
+        </div>
+
+        <div class="footer-col">
+            <h3><font color="orangered">About us</font></h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="Bike.html">Bike Services</a></li>
+                <li><a href="Cars.html">Cars Services</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+
+        
+    </div>
+
+    <div class="footer-bottom">
+        <hr>
+        <p><font color="orangered">&copy; 2026 All Rights Reserved by RentEasy Ride.</font> </p>
+    </div>
+</footer>
+</body>
+</html>
